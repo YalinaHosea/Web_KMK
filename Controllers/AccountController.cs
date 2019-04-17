@@ -8,7 +8,7 @@ namespace Web_KMK.Controllers
         public IActionResult Login()
         {
             return View();
-            //dasdsadsa
+            
         }
 
         public IActionResult Pendaftaran(){
