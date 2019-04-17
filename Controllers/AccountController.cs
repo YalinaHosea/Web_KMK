@@ -9,6 +9,7 @@ namespace Web_KMK.Controllers
         {
             return View();
             //hallo
+            //hello2
         }
 
         public IActionResult Pendaftaran(){
