@@ -11,6 +11,8 @@ namespace Web_KMK.DAL{
 
         void Insert(Anggota agt);
 
-        void Update(Anggota)
+        void Update(Anggota agt);
+        void Delete(string nim);
+
     }
 }
