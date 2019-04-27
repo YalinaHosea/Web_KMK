@@ -27,3 +27,32 @@ D:\Program S1\Semester 4\RPL Praktikum\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Vie
 D:\Program S1\Semester 4\RPL Praktikum\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
 D:\Program S1\Semester 4\RPL Praktikum\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Account\Pendaftaran.g.cshtml.cs
 d:\Program S1\Semester 4\RPL Praktikum\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contact.g.cshtml.cs
+E:\TUGAS RPL\Web_KMK\bin\Debug\netcoreapp2.2\Web_KMK.deps.json
+E:\TUGAS RPL\Web_KMK\bin\Debug\netcoreapp2.2\Web_KMK.runtimeconfig.json
+E:\TUGAS RPL\Web_KMK\bin\Debug\netcoreapp2.2\Web_KMK.runtimeconfig.dev.json
+E:\TUGAS RPL\Web_KMK\bin\Debug\netcoreapp2.2\Web_KMK.dll
+E:\TUGAS RPL\Web_KMK\bin\Debug\netcoreapp2.2\Web_KMK.pdb
+E:\TUGAS RPL\Web_KMK\bin\Debug\netcoreapp2.2\Web_KMK.Views.dll
+E:\TUGAS RPL\Web_KMK\bin\Debug\netcoreapp2.2\Web_KMK.Views.pdb
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.csprojAssemblyReference.cache
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.csproj.CoreCompileInputs.cache
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.RazorAssemblyInfo.cache
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.RazorAssemblyInfo.cs
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.AssemblyInfoInputs.cache
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.AssemblyInfo.cs
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.TagHelpers.input.cache
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.TagHelpers.output.cache
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.RazorCoreGenerate.cache
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Account\Pendaftaran.g.cshtml.cs
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contact.g.cshtml.cs
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.RazorTargetAssemblyInfo.cache
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.RazorTargetAssemblyInfo.cs
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.Views.pdb
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.dll
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.pdb
+E:\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.csproj.CopyComplete
