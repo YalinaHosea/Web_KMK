@@ -3,21 +3,48 @@
 }
   
 <div class="container">
+  <form method="POST" action="/TampilHasil/Tampil">
+        <div class="form-group">
+            <label for="Nama">Nama :</label>
+            <input type="text" class="form-control" name="Nama" />
+        </div>
+        <div class="form-group">
+            <label for="Nim">Nim :</label>
+            <input type="text" class="form-control" name="Nim" />
+        </div>
+        <div class="form-group">
+            <label for="Prodi">Prodi :</label>
+            <input type="text" class="form-control" name="Prodi" />
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender : </label>
+            <label class="radio-inline">
+                <input type="radio" name="gender" value="Male" checked>Male
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="gender" value="Female">Female
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="telp">Telp :</label>
+            <input type="text" class="form-control" name="telp" />
+        </div>
+    </form>
   <form>
-    <div class="row">
+    <!--<div class="row">
         <h4>Data Diri</h4>
           <div class="input-group input-group-icon">
-            <input type="text" placeholder="Nama Lengkap"/>
+            <input type="text" placeholder="Nama Lengkap"/>-->
             <!--<div class="input-icon"><i class="fa fa-user"></i></div>-->
-          </div>
+          <!--</div>
       <div class="input-group input-group-icon">
-            <input type="text" placeholder="Nim"/>
+            <input type="text" placeholder="Nim"/>-->
             <!--<div class="input-icon"><i class="fa fa-envelope"></i></div>-->
-      </div>
+      <!--</div>
       <div class="input-group input-group-icon">
-            <input type="text" placeholder="Prodi"/>
+            <input type="text" placeholder="Prodi"/>-->
             <!--<div class="input-icon"><i class="fa fa-key"></i></div>-->
-      </div>
+      <!--</div>
     </div>
     <div class="row">
       <div class="col-half">
@@ -44,7 +71,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row">-->
       <!--<h4></h4>-->
       <!----<div class="input-group">
         <input type="radio" name="payment-method" value="card" id="payment-method-card" checked="true"/>
@@ -52,8 +79,9 @@
         <input type="radio" name="payment-method" value="paypal" id="payment-method-paypal"/>
         <label for="payment-method-paypal"> <span><i class="fa fa-cc-paypal"></i>Paypal</span></label>
       </div>-->
-      <button type="submit">Kirim Data</button>
-   <button type="reset">Reset Form</button>
+      <button type="submit">Simpan</button>
+   <button type="reset">Batal</button>
+
       
       <!--<div class="input-group input-group-icon">
         <input type="text" placeholder="Card Number"/>
