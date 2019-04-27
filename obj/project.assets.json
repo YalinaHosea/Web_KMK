@@ -7587,7 +7587,11 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< HEAD
       "sha512": "qNCpIXouq9zmfCwdHeSD0EEgxRWLLuLrVVdPcR343Ayx94kOSm0MGCERn5XL4Sa7IINKzjriTMy8r3oIWPYd+w==",
+=======
+      "sha512": "X7IdhILzr4ROXd8mI1BUCQMSHSQwelUlBjF1JyTKCjXaOGn2fB4EKBxQbCK2VjO3WaWIdlXZL3W6TiIVnrhX4g==",
+>>>>>>> a880ca516e09fab16eee9a766ba0348a7f854554
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -7613,7 +7617,11 @@
       ]
     },
     "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< HEAD
       "sha512": "nPDyfZPzDDx/cSxqVV+P10rFLL4coOy8R6pD75TPCY0E0sHLIhRBtGqRRIP6XzpfkmpGpd57767pU3flH4oZZw==",
+=======
+      "sha512": "ytoewC6wGorL7KoCAvRfsgoJPJbNq+64k2SqW6JcOAebWsFUvCCYgfzQMrnpvPiEl4OrblUlhF2ji+Q1+SVLrQ==",
+>>>>>>> a880ca516e09fab16eee9a766ba0348a7f854554
       "type": "package",
       "path": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -9337,7 +9345,11 @@
       ]
     },
     "System.Net.Http/4.3.0": {
+<<<<<<< HEAD
       "sha512": "PBqILzh8OUin3ybnGRXh2TNfyltaX26vFBHKBUVgm3i4NEU6Z6JzukndVBJLvFV7JVlHw3iyfqJobQWk/qyX4A==",
+=======
+      "sha512": "Z1UfSF6dlpCdZdxh6LeoGlYH+q6ptG/iiIWgUUeKhE3DbQACmZkU7Sz2nOX0qdHjz72MOdYRbkSJ5Qwl6sZgvg==",
+>>>>>>> a880ca516e09fab16eee9a766ba0348a7f854554
       "type": "package",
       "path": "system.net.http/4.3.0",
       "files": [
@@ -11671,7 +11683,11 @@
       ]
     },
     "System.Threading.Tasks.Parallel/4.3.0": {
+<<<<<<< HEAD
       "sha512": "KNwwYBuP2Ei9+Nwg2WVA/6rgguiGTnmFqgAOkwd1hL/pTVAQpt7OjvxzeNoAGSt9BTN929xXiJvlRLwlVpSM0A==",
+=======
+      "sha512": "Wn3GV5YIWjxvv9muD9FSZxH4PLx98Y4D1Z5mpYTowK1RLPtFvusnVKnT0OzmzEpYCMtVNgqfk3kPc9xRGsWrLA==",
+>>>>>>> a880ca516e09fab16eee9a766ba0348a7f854554
       "type": "package",
       "path": "system.threading.tasks.parallel/4.3.0",
       "files": [
@@ -12118,23 +12134,39 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\ivan bernov\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+>>>>>>> a880ca516e09fab16eee9a766ba0348a7f854554
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ivan bernov\\Documents\\TUGAS RPL\\Web_KMK\\Web_KMK.csproj",
       "projectName": "Web_KMK",
       "projectPath": "C:\\Users\\ivan bernov\\Documents\\TUGAS RPL\\Web_KMK\\Web_KMK.csproj",
       "packagesPath": "C:\\Users\\ivan bernov\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ivan bernov\\Documents\\TUGAS RPL\\Web_KMK\\obj\\",
+=======
+      "projectUniqueName": "E:\\TUGAS RPL\\Web_KMK\\Web_KMK.csproj",
+      "projectName": "Web_KMK",
+      "projectPath": "E:\\TUGAS RPL\\Web_KMK\\Web_KMK.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "E:\\TUGAS RPL\\Web_KMK\\obj\\",
+>>>>>>> a880ca516e09fab16eee9a766ba0348a7f854554
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\ivan bernov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> a880ca516e09fab16eee9a766ba0348a7f854554
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
