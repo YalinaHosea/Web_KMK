@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Web_KMK.DAL;
+using Microsoft.AspNetCore.Session;
 
 namespace Web_KMK
 {
@@ -16,6 +18,9 @@ namespace Web_KMK
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddSession();
+            services.AddDistributedMemoryCache();
+            services.AddScoped<IAdmin,AdminDAL>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -25,6 +30,7 @@ namespace Web_KMK
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseSession();
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
             app.Run(async (context) =>
