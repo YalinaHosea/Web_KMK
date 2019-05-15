@@ -21,6 +21,7 @@ namespace Web_KMK
             services.AddSession();
             services.AddDistributedMemoryCache();
             services.AddScoped<IAdmin,AdminDAL>();
+            services.AddScoped<IRenungan,RenunganDAL>(); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

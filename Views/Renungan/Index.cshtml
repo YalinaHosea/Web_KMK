@@ -1,0 +1,45 @@
+@{
+    Layout = "_Layout";
+}
+@using Microsoft.AspNetCore.Http
+<div class="container body-content">
+    <div class="row text-center">
+        <div class="col-md-12 text-center">
+    <h2 class="text-center">Daftar Renungan</h2>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+     @if(Context.Session.GetString("user")!="")
+     {
+         <input type="button" value="Tambah Renungan" onclick="location.href='@Url.Action("Create", "Renungan")'" class="btn btn-success btn-sm" />
+     }
+    <div class="row" id="renungan-content">
+
+        @foreach (var ren in Model)
+        {
+            <div class="col-md-4">
+                <div class="thumbnail text-center" id="renungan-card" style="margin-bottom:50px">
+                    <h2><b style="color:#000000">@ren.judul</b></h2>
+                    @if(Context.Session.GetString("user")!="")
+                    {
+                         <input type="button" value="Edit" onclick="location.href='@Url.Action("Edit", "Renungan")?id_bacaan=' + @ren.id_bacaan" class="btn btn-warning" />
+                        <input type="button" value="Delete" onclick="location.href='@Url.Action("Delete", "Renungan")?id_bacaan=' + @ren.id_bacaan" class="btn btn-danger" />
+                    }
+                    <hr>
+                    <br>
+                    <p style="height:60px;line-height:20px;overflow:hidden;">@ren.isi ... </p>
+                    <input type="button" value="Baca Selengkapnya" onclick="location.href='@Url.Action("Detail", "Renungan")?id_bacaan=' + @ren.id_bacaan" class="btn btn-primary btn-sm" />
+                </div>
+            </div>
+        }
+
+    </div>
+
+</div>
+
+</div>
+<br>
+<br>
+<br>
