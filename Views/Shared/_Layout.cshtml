@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
+        @using Microsoft.AspNetCore.Http
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -40,7 +41,16 @@
 					</div>
 					<div class="float-right">
 						<!--<a class="dn_btn" href="tel:+4400123654896">+440 012 3654 896</a>-->
-						<a class="dn_btn"  href="@Url.Action("Login","Account")">Login Admin</a>
+                        @if(@Context.Session.GetString("user")!=""){
+                            
+                            <p>Hello @Context.Session.GetString("user") <a href="@Url.Action("Logout","Admin")">Log Out</a></p>  
+
+                                }
+                        else
+                        {
+                            <a class="dn_btn"  href="@Url.Action("Login","Admin")">Login Admin</a>
+                        }
+						
 					</div>
            		</div>
            	</div>	

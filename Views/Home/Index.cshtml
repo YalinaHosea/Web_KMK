@@ -1,15 +1,15 @@
- @{
+@{
     Layout = "_Layout";
 }
  <section class="home_banner_area blog_banner">
             <div class="banner_inner d-flex align-items-center">
             	<img class="overlay bg-parallax" height="800px" width="1500px" style="background-size:cover;text-align:center;" src="~/Images/banner/PerjamuanTerakhir.jpg">
 				<div class="container">
-					<div class="blog_b_text text-center">
+					<!--<div class="blog_b_text text-center">
                                         
 						<p>Ingin Bergabung Dengan Kami?</p>
 						<a class="main_btn" href="@Url.Action("Pendaftaran","Account")">Klik Disini</a>
-					</div>
+					</div>-->
 				</div>
             </div>
         </section>
@@ -33,28 +33,15 @@
                         <div class="blog_left_sidebar">
                             <article class="row blog_item">
                                <div class="col-md-3">
-                                   <div class="blog_info text-right">
-                                        <div class="post_tag">
-                                            <a href="#">Food,</a>
-                                            <a class="active" href="#">Technology,</a>
-                                            <a href="#">Politics,</a>
-                                            <a href="#">Lifestyle</a>
-                                        </div>
-                                        <ul class="blog_meta list">
-                                            <li><a href="#">Mark wiens<i class="lnr lnr-user"></i></a></li>
-                                            <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
-                                            <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
-                                            <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
-                                        </ul>
-                                    </div>
+                                   
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
                                         <img src="~/Images/blog/main-blog/m-blog-1.jpg" alt="">
                                         <div class="blog_details">
-                                            <a href="single-blog.html"><h2>Astronomy Binoculars A Great Alternative</h2></a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
-                                            <a href="single-blog.html" class="white_bg_btn">View More</a>
+                                            <a href="@Url.Action("Detail","Renungan")"><h2>Perbuatan dan Hidup Kekal</h2></a>
+                                            <p>"Pergilah, juallah apa yang kaumiliki dan berikanlah itu kepada orang-orang miskin, maka engkau akan beroleh harta di sorga, kemudian datanglah ke mari dan ikutlah Aku."  Markus 10:21</p>
+                                            <a  href="@Url.Action("Detail","Renungan")" class="white_bg_btn">View More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -82,7 +69,7 @@
                                         <div class="blog_details">
                                             <a href="single-blog.html"><h2>The Basics Of Buying A Telescope</h2></a>
                                             <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
-                                            <a href="single-blog.html" class="white_bg_btn">View More</a>
+                                            <a href="@Url.Action("Detail","Home")" class="white_bg_btn">View More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -198,94 +185,6 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="blog_right_sidebar">
-                            <aside class="single-sidebar-widget tag_cloud_widget">
-                                <h4 class="widget_title">Anggota</h4>
-                                <ul class="data">
-                                    <tr>
-                                        <td width="25px">No</td>
-                                        <td width="100px">NIM</td>
-                                        <td> Nama</td>
-                                    </tr>
-                                </ul>
-                            </aside>
-                            <aside class="single_sidebar_widget post_category_widget">
-                                <h4 class="widget_title">Kalender</h4>
-                                <ul class="list cat-list">
-                                        <div class="coloumn">
-                                                <div id="kalender">
-                                                    <table class="calendar">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>
-                                                                    <div id="pMonth"><</div>
-                                                                    </td>
-                                                                    <td colspan="20" align="center">
-                                                                        <span id="cMonth">April 2019</span>
-                                                                    </td>
-                                                                    <td>
-                                                                    <div id="nMonth">></div>
-                                                            </tr>
-                                                            <tr style="font-weight: bold">
-                                                                <td>Minggu</td>
-                                                                <td>Senin</td>
-                                                                <td>Selasa</td>
-                                                                <td>Rabu</td>
-                                                                <td>Kamis</td>
-                                                                <td>Jum'at</td>
-                                                                <td>Sabtu</td>
-                                                            </tr>
-                                                            <td></td>
-                                                            <td class="tgl" style="background-color:white;color: purple;">1</td>
-                                                            <td class="tgl" style="background-color:aquamarine;color: palevioletred;">2</td>
-                                                            <td class="tgl" style="background-color:white;color: palevioletred;">3</td>
-                                                            <td class="tgl" style="background-color:aquamarine;color: palevioletred;">4</td>
-                                                            <td class="tgl" style="background-color:aquamarine;color: palevioletred;">5</td>
-                                                            <td class="tgl" style="background-color:white;color: purple;">6</td>
-                                                            </tr>
-                                                            <tr>
-                                                            <td class="tgl" style="background-color:white;color:red;">7</td>
-                                                            <td class="tgl" style="background-color:white;color: purple;">8</td>
-                                                            <td class="tgl" style="background-color:white;color: purple;">9</td>
-                                                            <td class="tgl" style="background-color:white;color: purple;">10</td>
-                                                            <td class="tgl" style="background-color:aquamarine;color: palevioletred;">11</td>
-                                                            <td class="tgl" style="background-color:white;color: purple;">12</td>
-                                                            <td class="tgl" style="background-color:aquamarine;color: palevioletred;">13</td>
-                                                            </tr>
-                                                            <tr>
-                                                            <td class="tgl" style="background-color:aquamarine;color:red;">14</td>
-                                                            <td class="tgl" style="background-color:white;color: palevioletred;">15</td>
-                                                            <td class="tgl" style="background-color:white;color: palevioletred;">16</td>
-                                                            <td class="tgl" style="background-color:white;color: palevioletred;">17</td>
-                                                            <td class="tgl" style="background-color:aquamarine;color: palevioletred;">18</td>
-                                                            <td class="tgl" style="background-color:aquamarine;color:red;">19</td>
-                                                            <td class="tgl" style="background-color:aquamarine;color: palevioletred;">20</td>
-                                                            </tr>
-                                                            <tr>
-                                                            <td class="tgl" style="background-color:aquamarine;color:red;">21</td>
-                                                            <td class="tgl" style="background-color:white;color: palevioletred;">22</td>
-                                                            <td class="tgl" style="background-color:white;color: palevioletred;">23</td>
-                                                            <td class="tgl" style="background-color:white;color: palevioletred;">24</td>
-                                                            <td class="tgl" style="background-color:white;color: palevioletred;">25</td>
-                                                            <td class="tgl" style="background-color:white;color: palevioletred;">26</td>
-                                                            <td class="tgl" style="background-color:white;color: palevioletred;">27</td>
-                                                            </tr>
-                                                            <tr>
-                                                            <td class="tgl" style="background-color: white;color:red;">28</td>
-                                                            <td class="tgl" style="background-color:aquamarine;color: palevioletred;">29</td>
-                                                            <td class="tgl" style="background-color:aquamarine;color: palevioletred;">30</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                    </div>
-                                                    </div>
-                                    												
-                                </ul>
-                                <div class="br"></div>
-                            </aside>
                             <aside class="single-sidebar-widget newsletter_widget">
                                 <h4 class="widget_title">Agenda</h4>
                                 <div class="coloumn">
