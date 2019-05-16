@@ -44,8 +44,7 @@
                         @if(@Context.Session.GetString("user")!=""){
                             
                             <p>Hello @Context.Session.GetString("user") <a href="@Url.Action("Logout","Admin")">Log Out</a></p>  
-
-                                }
+        }
                         else
                         {
                             <a class="dn_btn"  href="@Url.Action("Login","Admin")">Login Admin</a>
@@ -68,6 +67,7 @@
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
                                     <li class="nav-item"><a class="nav-link" href="@Url.Action("Index","Home")">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="@Url.Action("Index","Renungan")">Renungan</a></li>
 								<li class="nav-item"><a class="nav-link" href="@Url.Action("About","Home")">About Us</a></li> 
 								
 							</ul>

@@ -97,3 +97,6 @@ D:\Program S1\2019\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.pdb
 D:\Program S1\2019\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Web_KMK.csproj.CopyComplete
 D:\Program S1\2019\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Login.g.cshtml.cs
 D:\Program S1\2019\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Pendaftaran.g.cshtml.cs
+D:\Program S1\2019\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Renungan\Index.g.cshtml.cs
+D:\Program S1\2019\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Renungan\Create.g.cshtml.cs
+D:\Program S1\2019\TUGAS RPL\Web_KMK\obj\Debug\netcoreapp2.2\Razor\Views\Renungan\Edit.g.cshtml.cs

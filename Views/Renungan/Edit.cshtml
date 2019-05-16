@@ -1,0 +1,30 @@
+@model Web_KMK.Models.Renungan
+@{
+    Layout = "_Layout";
+}
+<div class="container body-content">
+
+
+<h2><b>Edit Renungan</b></h2>
+
+    <div class="col-md-6">
+    <form asp-action="Edit">
+       
+        <div class="form-group">
+            <label asp-for="judul">Judul</label>
+            <input asp-for="judul" type="text" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label asp-for="isi">Isi Renungan</label>
+            <textarea asp-for="isi" class="span6 form-control" rows="10" placeholder="Renungan..." required></textarea>
+            
+        </div>
+        <div class="form-group">
+           <input type="submit" value="Submit" class="btn btn-primary" /> 
+        </div>
+    </form>
+</div>
+</div>
+<br>
+<br>
+<br>
